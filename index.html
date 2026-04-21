@@ -21,6 +21,13 @@
   <link rel="stylesheet" href="assets/css/theme-luka.css">
 
   <style>
+    body.theme-luka .site-subtitle {
+      margin: 0 0 18px;
+      color: var(--luka-secondary);
+      font-size: 14px;
+      line-height: 1.7;
+    }
+
     body.theme-luka .hero-intro {
       margin-bottom: 18px;
       color: var(--luka-secondary);
@@ -50,6 +57,21 @@
       width: 250px;
     }
 
+    body.theme-luka .visitor-map-box {
+      width: 100%;
+      min-height: 150px;
+      border-radius: 10px;
+      overflow: hidden;
+      background: rgba(194, 113, 79, 0.06);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--luka-secondary);
+      font-size: 12px;
+      text-align: center;
+      padding: 10px;
+    }
+
     body.theme-luka .note-card {
       margin-top: 20px;
       padding: 14px 16px;
@@ -69,11 +91,12 @@
       font-size: 30px;
     }
 
-    body.theme-luka .site-subtitle {
-      margin: 0 0 20px;
-      color: var(--luka-secondary);
-      font-size: 14px;
-      line-height: 1.7;
+    body.theme-luka .award-item {
+      align-items: flex-start;
+    }
+
+    body.theme-luka .award-text {
+      line-height: 1.6;
     }
   </style>
 </head>
@@ -114,18 +137,17 @@
         </div>
 
         <div class="visitor-card">
-          <div class="visitor-card-title">Research Interests</div>
+          <div class="visitor-card-title">Visitor Map</div>
           <div class="visitor-card-body">
-            Ultrafast optics<br>
-            Nonlinear optics<br>
-            Soft X-ray spectroscopy<br>
-            Free-electron lasers<br>
-            Magnetism & semiconductors
+            <div class="visitor-map-box">
+              Paste your visitor-map embed code here.<br>
+              For example, replace this box with your map widget snippet.
+            </div>
           </div>
         </div>
 
         <div class="note-card">
-          I am interested in developing next-generation soft X-ray nonlinear spectroscopy techniques and applying them to magnetic and semiconductor systems.
+          I work on ultrafast light–matter interaction, nonlinear optics, and soft X-ray spectroscopy, with a particular interest in FEL-based experiments and element-specific dynamics in magnetic and semiconductor systems.
         </div>
       </div>
     </header>
@@ -224,7 +246,29 @@
         </div>
       </div>
 
-      <div class="section" id="notes">
+      <div class="section" id="awards">
+        <h2 class="section-title">Awards & Scholarships</h2>
+        <div class="section-body">
+          <div class="awards-grid">
+            <div class="award-item">
+              <span class="award-icon">🏅</span>
+              <div class="award-text"><strong>MEXT Scholarship</strong><br>Graduate scholarship support for doctoral study in Japan.</div>
+            </div>
+
+            <div class="award-item">
+              <span class="award-icon">🎓</span>
+              <div class="award-text"><strong>Graduate Fellowship / Lab Award</strong><br>Add your current scholarship, fellowship, or internal research award here.</div>
+            </div>
+
+            <div class="award-item">
+              <span class="award-icon">📘</span>
+              <div class="award-text"><strong>Academic Excellence Award</strong><br>Add undergraduate or master's academic honors if relevant.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section" id="interests">
         <h2 class="section-title">Current Interests</h2>
         <div class="section-body">
           <ul>

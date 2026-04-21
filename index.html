@@ -5,25 +5,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Xing Su - Homepage</title>
 
+  <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/theme-luka.css">
-  <script src="https://kit.fontawesome.com/a860a211d3.js"></script>
 
-  <style>
-    body { font-family: 'Inter', sans-serif; }
-  </style>
+  <!-- Luka CSS -->
+  <link rel="stylesheet" href="assets/css/theme-luka.css">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css">
+  <script src="https://kit.fontawesome.com/a860a211d3.js"></script>
 </head>
 
-<body>
+<!-- 🔥 关键就在这里 -->
+<body class="theme-luka">
+
 <div class="wrapper">
 
-<!-- ================= LEFT SIDEBAR ================= -->
+<!-- ================= NAV ================= -->
+<nav class="top-nav">
+  <div class="nav-container">
+    <div class="nav-left">
+      <a href="#">Home</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ================= SIDEBAR ================= -->
 <header class="sidebar">
   <div class="profile-card">
-    <img src="assets/img/avatar.png" style="width:120px;border-radius:50%;">
 
-    <h1>Xing Su</h1>
-    <p>PhD Student<br>University of Tokyo</p>
+    <div class="image avatar">
+      <img src="assets/img/avatar.png" alt="avatar">
+    </div>
+
+    <h1 class="site-name">Xing Su</h1>
+    <p class="site-email">your@email.com</p>
 
     <div class="social-icons">
       <a href="mailto:your@email.com"><i class="fa-solid fa-envelope"></i></a>
@@ -31,106 +47,116 @@
       <a href="#"><i class="fa-brands fa-github"></i></a>
       <a href="#"><i class="fa-brands fa-linkedin"></i></a>
     </div>
+
   </div>
 </header>
 
-<!-- ================= MAIN CONTENT ================= -->
+<!-- ================= CONTENT ================= -->
 <section class="content">
 
 <!-- ===== About ===== -->
 <div class="section">
-  <h2>About Me</h2>
-  <p>
-    I am a PhD student in the group of Prof. Matsuda at the University of Tokyo.
-    My research focuses on ultrafast light–matter interaction, nonlinear optics,
-    and soft X-ray spectroscopy using free-electron lasers (FELs).
-  </p>
+  <h2 class="section-title">About Me</h2>
+  <div class="section-body">
+    <p>
+      I am a PhD student in the group of Prof. Matsuda at the University of Tokyo.
+      My research focuses on ultrafast light–matter interaction, nonlinear optics,
+      and soft X-ray spectroscopy using free-electron lasers (FELs).
+    </p>
 
-  <p>
-    I am particularly interested in element-specific ultrafast dynamics,
-    including soft X-ray second-harmonic generation (SXSHG) and XMOKE,
-    with applications to magnetic materials and semiconductor systems.
-  </p>
+    <p>
+      I am particularly interested in element-specific ultrafast dynamics,
+      including soft X-ray second-harmonic generation (SXSHG) and XMOKE,
+      with applications to magnetic materials and semiconductor systems.
+    </p>
 
-  <p>
-    <a href="assets/cv/CV.pdf"><strong>Download CV</strong></a>
-  </p>
+    <p>
+      <strong><a href="assets/cv/CV.pdf">Download CV</a></strong>
+    </p>
+  </div>
 </div>
 
 <!-- ===== Research Highlights ===== -->
 <div class="section">
-  <h2>Research Highlights</h2>
-  <ul>
-    <li>Soft X-ray second-harmonic generation (SXSHG)</li>
-    <li>Ultrafast magnetization dynamics in (In,Fe)As</li>
-    <li>Nonlinear optics in semiconductors (GaAs)</li>
-    <li>FEL-based spectroscopy (SACLA)</li>
-  </ul>
+  <h2 class="section-title">Research Highlights</h2>
+  <div class="section-body">
+    <ul>
+      <li>Soft X-ray second-harmonic generation (SXSHG)</li>
+      <li>Ultrafast magnetization dynamics in (In,Fe)As</li>
+      <li>Nonlinear optics in semiconductors (GaAs)</li>
+      <li>FEL-based spectroscopy (SACLA)</li>
+    </ul>
+  </div>
 </div>
 
 <!-- ===== Education ===== -->
 <div class="section">
-  <h2>Education</h2>
-
-  <p><strong>University of Tokyo</strong><br>
-  Ph.D. in Applied Physics<br>
-  2025 – Present</p>
-
+  <h2 class="section-title">Education</h2>
+  <div class="section-body">
+    <p><strong>University of Tokyo</strong><br>
+    Ph.D. in Applied Physics<br>
+    2025 – Present</p>
+  </div>
 </div>
 
 <!-- ===== Experience ===== -->
 <div class="section">
-  <h2>Experience</h2>
-
-  <p><strong>Matsuda Lab</strong><br>
-  PhD Researcher<br>
-  Focus: SXSHG, XMOKE, FEL experiments<br>
-  2025 – Present</p>
-
+  <h2 class="section-title">Experience</h2>
+  <div class="section-body">
+    <p><strong>Matsuda Lab</strong><br>
+    PhD Researcher<br>
+    Focus: SXSHG, XMOKE, FEL experiments<br>
+    2025 – Present</p>
+  </div>
 </div>
 
 <!-- ===== Projects ===== -->
 <div class="section">
-  <h2>Projects</h2>
+  <h2 class="section-title">Projects</h2>
+  <div class="section-body">
 
-  <p>
-    <strong>Soft X-ray SHG in GaAs</strong><br>
-    Rotational anisotropy and element-resolved nonlinear optical response.
-  </p>
+    <div class="card project-card">
+      <strong>Soft X-ray SHG in GaAs</strong><br>
+      Rotational anisotropy and element-resolved nonlinear optical response.
+    </div>
 
-  <p>
-    <strong>Ultrafast Magnetization in (In,Fe)As</strong><br>
-    Time-resolved XMOKE using SACLA XFEL.
-  </p>
+    <div class="card project-card">
+      <strong>Ultrafast Magnetization in (In,Fe)As</strong><br>
+      Time-resolved XMOKE using SACLA XFEL.
+    </div>
 
-  <p>
-    <strong>Orbitronics in CoGd/Ti</strong><br>
-    Element-specific orbital angular momentum dynamics via SXSHG.
-  </p>
+    <div class="card project-card">
+      <strong>Orbitronics in CoGd/Ti</strong><br>
+      Element-specific orbital angular momentum dynamics via SXSHG.
+    </div>
 
+  </div>
 </div>
 
 <!-- ===== Publications ===== -->
 <div class="section">
-  <h2>Publications</h2>
-
-  <ol>
-    <li>
-      <strong>Xing Su</strong>, ...<br>
-      Rotational Anisotropy SXSHG in GaAs<br>
-      <em>Applied Physics Letters (submitted)</em>
-    </li>
-  </ol>
-
+  <h2 class="section-title">Publications</h2>
+  <div class="section-body">
+    <ol class="bibliography">
+      <li>
+        <div class="pub-content">
+          <div class="title">Rotational Anisotropy SXSHG in GaAs</div>
+          <div class="author"><strong>Xing Su</strong>, ...</div>
+          <div class="periodical"><em>Applied Physics Letters (submitted)</em></div>
+        </div>
+      </li>
+    </ol>
+  </div>
 </div>
 
 </section>
 
 <!-- ================= FOOTER ================= -->
-<footer style="text-align:center;margin-top:40px;">
+<footer class="site-footer">
   <p>© 2026 Xing Su</p>
 </footer>
 
 </div>
+
 </body>
 </html>

@@ -1,157 +1,296 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Xing Su | Ultrafast X-ray Physics</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Xing Su | Ultrafast X-ray Physics</title>
+  <meta name="description" content="Xing Su's academic homepage: ultrafast light-matter interaction, nonlinear optics, soft X-ray spectroscopy, FEL physics.">
+  <meta name="keywords" content="Xing Su, ultrafast physics, nonlinear optics, soft X-ray, FEL, SXSHG, XMOKE, University of Tokyo">
 
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/theme-luka.css">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/a860a211d3.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="assets/css/font_sans_serif.css">
+  <link rel="stylesheet" href="assets/css/theme-luka.css">
 
-<style>
-:root {
-  --bg: #0e0f12;
-  --text: #e6e6e6;
-  --accent: #4da3ff;
-  --subtle: #9aa3ad;
-}
+  <style>
+    :root {
+      --luka-bg: #0c111b;
+      --luka-text: #e7edf5;
+      --luka-accent: #63a4ff;
+      --luka-secondary: #9eb0c7;
+      --luka-border: rgba(99, 164, 255, 0.22);
+      --luka-shadow: rgba(0, 0, 0, 0.35);
+      --luka-social-bg: #121a27;
+      --luka-social-text: #d7e4f5;
+      --luka-footer-border: rgba(99, 164, 255, 0.16);
+    }
 
-body {
-  background: var(--bg);
-  color: var(--text);
-  font-family: "Inter", sans-serif;
-}
+    [data-theme="light"] {
+      --luka-bg: #f7f9fc;
+      --luka-text: #1a2740;
+      --luka-accent: #2563eb;
+      --luka-secondary: #5b6b84;
+      --luka-border: rgba(37, 99, 235, 0.18);
+      --luka-shadow: rgba(37, 99, 235, 0.10);
+      --luka-social-bg: #ffffff;
+      --luka-social-text: #274060;
+      --luka-footer-border: rgba(37, 99, 235, 0.12);
+    }
 
-h1, h2 {
-  font-weight: 600;
-}
+    body.theme-luka .section-body ul {
+      margin: 0;
+      padding-left: 20px;
+    }
 
-.section-title {
-  color: var(--accent);
-  border-bottom: 1px solid var(--accent);
-  display: inline-block;
-  padding-bottom: 6px;
-}
+    body.theme-luka .hero-note {
+      margin: 0 0 20px;
+      padding: 16px 18px;
+      border-left: 3px solid var(--luka-accent);
+      background: rgba(99, 164, 255, 0.06);
+      border-radius: 0 12px 12px 0;
+      color: var(--luka-secondary);
+      font-size: 15px;
+      line-height: 1.7;
+    }
 
-a {
-  color: var(--accent);
-  text-decoration: none;
-}
+    body.theme-luka .project-card,
+    body.theme-luka .research-card {
+      margin-bottom: 18px;
+      padding: 14px 0;
+      border-bottom: 1px solid var(--luka-border);
+    }
 
-.sidebar {
-  text-align: center;
-}
+    body.theme-luka .research-card:last-child,
+    body.theme-luka .project-card:last-child {
+      border-bottom: none;
+    }
 
-.avatar img {
-  width: 160px;
-  border-radius: 50%;
-  margin-bottom: 20px;
-}
+    body.theme-luka .pub-content .title {
+      font-size: 16px;
+    }
 
-.content {
-  max-width: 900px;
-  margin: auto;
-  padding: 40px 20px;
-}
-
-.research-highlight {
-  font-size: 18px;
-  line-height: 1.6;
-  margin-bottom: 40px;
-}
-
-.pub {
-  margin-bottom: 18px;
-}
-
-.pub-title {
-  font-weight: 500;
-}
-
-.pub-journal {
-  color: var(--subtle);
-  font-size: 14px;
-}
-</style>
-
+    body.theme-luka .site-name {
+      letter-spacing: 0.01em;
+    }
+  </style>
 </head>
 
-<body>
+<body class="theme-luka">
+  <nav class="top-nav">
+    <div class="nav-container">
+      <div class="nav-left">
+        <a href="./">Home</a>
+      </div>
+      <div class="nav-right">
+        <button id="themeToggle" class="theme-toggle" title="Toggle theme" aria-label="Toggle theme">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
 
-<div class="content">
+  <div class="wrapper">
+    <header class="sidebar">
+      <div class="profile-card">
+        <a class="image avatar">
+          <img src="assets/img/avatar.png" alt="Xing Su avatar">
+        </a>
 
-<!-- ===== HEADER ===== -->
-<h1>Xing Su</h1>
-<p>PhD Student, University of Tokyo</p>
+        <h1 class="site-name">Xing Su</h1>
+        <p class="site-email">your.email@example.com</p>
 
-<p class="research-highlight">
-Exploring ultrafast light–matter interaction using soft X-ray free-electron lasers (FELs), 
-with a focus on nonlinear spectroscopy, magnetization dynamics, and element-resolved physics.
-</p>
+        <div class="social-icons">
+          <a href="mailto:your.email@example.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
+          <a href="https://scholar.google.com/" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+          <a href="https://github.com/xingyusu1999" title="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
 
-<!-- ===== ABOUT ===== -->
-<div class="section">
-<h2 class="section-title">About</h2>
-<p>
-I am a PhD student in Prof. Matsuda’s group at the University of Tokyo. 
-My research focuses on nonlinear X-ray optics and ultrafast dynamics in magnetic and semiconductor systems.
-</p>
-</div>
+        <div class="visitor-card">
+          <div class="visitor-card-title">Research Keywords</div>
+          <div class="visitor-card-body">
+            Ultrafast optics<br>
+            Soft X-ray spectroscopy<br>
+            Free-electron lasers<br>
+            SXSHG / XMOKE<br>
+            Magnetism / Semiconductors
+          </div>
+        </div>
+      </div>
+    </header>
 
-<!-- ===== RESEARCH ===== -->
-<div class="section">
-<h2 class="section-title">Research Focus</h2>
+    <section class="content">
+      <div class="section" id="about">
+        <h2 class="section-title">About</h2>
+        <div class="section-body">
+          <p class="hero-note">
+            I study ultrafast light–matter interaction using soft X-ray free-electron lasers, with an emphasis on nonlinear spectroscopy, element-resolved dynamics, and emergent phenomena in magnetic and semiconductor systems.
+          </p>
 
-<ul>
-<li>Soft X-ray Second-Harmonic Generation (SXSHG)</li>
-<li>Ultrafast magnetization dynamics (XMOKE)</li>
-<li>FEL-based spectroscopy (SACLA)</li>
-<li>Nonlinear optics in semiconductors (GaAs, InAs)</li>
-</ul>
+          <p>
+            I am a PhD student in Prof. Matsuda’s group at the University of Tokyo. My research focuses on nonlinear X-ray optics, ultrafast spectroscopy, and free-electron-laser-based probes of matter.
+          </p>
 
-</div>
+          <p>
+            My current work includes soft X-ray second-harmonic generation (SXSHG), time-resolved XMOKE, and element-specific studies of ultrafast dynamics in semiconductors and magnetic heterostructures.
+          </p>
 
-<!-- ===== PROJECTS ===== -->
-<div class="section">
-<h2 class="section-title">Selected Projects</h2>
+          <p>
+            <strong><a href="assets/cv/CV.pdf" target="_blank" rel="noopener">Download CV</a></strong>
+          </p>
+        </div>
+      </div>
 
-<p><strong>SXSHG in GaAs</strong><br>
-Rotational anisotropy and element-specific nonlinear response.</p>
+      <div class="section" id="research">
+        <h2 class="section-title">Research Focus</h2>
+        <div class="section-body">
+          <div class="research-card">
+            <p><strong>Soft X-ray Second-Harmonic Generation (SXSHG)</strong></p>
+            <p>Exploring nonlinear optical processes in the soft X-ray regime with elemental selectivity and interfacial sensitivity.</p>
+          </div>
 
-<p><strong>(In,Fe)As Magnetization Dynamics</strong><br>
-Time-resolved XMOKE using soft X-ray FEL pulses.</p>
+          <div class="research-card">
+            <p><strong>Ultrafast Magnetization Dynamics</strong></p>
+            <p>Using XMOKE and FEL-based pump–probe approaches to resolve transient magnetic responses in quantum wells and heterostructures.</p>
+          </div>
 
-<p><strong>Orbitronics in CoGd/Ti</strong><br>
-Element-resolved orbital angular momentum dynamics.</p>
+          <div class="research-card">
+            <p><strong>Nonlinear Optics in Semiconductors</strong></p>
+            <p>Studying rotational anisotropy, band-structure effects, and symmetry-dependent responses in systems such as GaAs.</p>
+          </div>
 
-</div>
+          <div class="research-card">
+            <p><strong>FEL-Based Spectroscopy</strong></p>
+            <p>Developing ultrafast soft X-ray techniques at SACLA and related facilities for next-generation spectroscopy.</p>
+          </div>
+        </div>
+      </div>
 
-<!-- ===== PUBLICATIONS ===== -->
-<div class="section">
-<h2 class="section-title">Publications</h2>
+      <div class="section" id="education">
+        <h2 class="section-title">Education</h2>
+        <div class="section-body">
+          <div class="card">
+            <div class="experience-item">
+              <img src="assets/img/institution.svg" alt="University logo" class="institution-logo">
+              <div class="experience-content">
+                <p class="exp-title"><strong>University of Tokyo</strong></p>
+                <p class="exp-detail">Ph.D. in Applied Physics</p>
+                <p class="exp-period">2025 – Present</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-<div class="pub">
-<div class="pub-title">
-Xing Su, et al. — Rotational Anisotropy SXSHG in GaAs
-</div>
-<div class="pub-journal">
-Applied Physics Letters (submitted)
-</div>
-</div>
+      <div class="section" id="experience">
+        <h2 class="section-title">Experience</h2>
+        <div class="section-body">
+          <div class="card timeline-item">
+            <div class="experience-item">
+              <img src="assets/img/institution.svg" alt="Lab logo" class="institution-logo">
+              <div class="experience-content">
+                <p class="exp-title"><strong>Matsuda Lab</strong></p>
+                <p class="exp-detail">PhD Researcher</p>
+                <p class="exp-detail"><em>Focus:</em> SXSHG, XMOKE, ultrafast FEL experiments</p>
+                <p class="exp-period">2025 – Present</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-</div>
+      <div class="section" id="projects">
+        <h2 class="section-title">Selected Projects</h2>
+        <div class="section-body">
+          <div class="card project-card">
+            <strong>Soft X-ray SHG in GaAs</strong><br>
+            Rotational anisotropy and element-resolved nonlinear optical response in semiconductors.
+          </div>
 
-<!-- ===== CONTACT ===== -->
-<div class="section">
-<h2 class="section-title">Contact</h2>
-<p>Email: your@email.com</p>
-<p>
-<a href="#">Google Scholar</a> | 
-<a href="#">GitHub</a>
-</p>
-</div>
+          <div class="card project-card">
+            <strong>Ultrafast Magnetization in (In,Fe)As</strong><br>
+            Time-resolved XMOKE using SACLA XFEL to probe photoinduced magnetic dynamics.
+          </div>
 
-</div>
+          <div class="card project-card">
+            <strong>Orbitronics in CoGd/Ti</strong><br>
+            Element-specific orbital angular momentum dynamics investigated via SXSHG.
+          </div>
+        </div>
+      </div>
 
+      <div class="section" id="publications">
+        <h2 class="section-title">Publications</h2>
+        <div class="section-body">
+          <div class="publications">
+            <ol class="bibliography">
+              <li>
+                <div class="pub-content">
+                  <div class="title">Rotational Anisotropy SXSHG in GaAs</div>
+                  <div class="author"><strong>Xing Su</strong>, ...</div>
+                  <div class="periodical"><em><strong>Applied Physics Letters</strong></em> (submitted)</div>
+                </div>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <p>
+        &copy; 2026 Xing Su.
+        <br>
+        <span class="template-credit">Built on Luka Homepage and customized for research use.</span>
+      </p>
+    </footer>
+  </div>
+
+  <script src="assets/js/scale.fix.js"></script>
+  <script>
+    (function() {
+      const themeToggle = document.getElementById('themeToggle');
+      const icon = themeToggle.querySelector('i');
+
+      function setTheme(isDark) {
+        document.documentElement.setAttribute('data-theme', isDark ? 'dark' : 'light');
+        icon.classList.toggle('fa-sun', isDark);
+        icon.classList.toggle('fa-moon', !isDark);
+        localStorage.setItem('theme', isDark ? 'dark' : 'light');
+      }
+
+      const savedTheme = localStorage.getItem('theme');
+      setTheme(savedTheme ? savedTheme === 'dark' : true);
+
+      themeToggle.addEventListener('click', function() {
+        const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+        setTheme(!isDark);
+      });
+
+      if ('IntersectionObserver' in window) {
+        const observer = new IntersectionObserver(function(entries) {
+          entries.forEach(function(entry) {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('visible');
+              observer.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.08 });
+
+        document.querySelectorAll('.section').forEach(function(el) {
+          observer.observe(el);
+        });
+      } else {
+        document.querySelectorAll('.section').forEach(function(el) {
+          el.classList.add('visible');
+        });
+      }
+    })();
+  </script>
 </body>
 </html>

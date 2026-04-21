@@ -1,335 +1,305 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Xing Su - Homepage</title>
-  <meta name="description" content="Xing Su's academic homepage. PhD student at the University of Tokyo working on ultrafast light-matter interaction, nonlinear optics, and soft X-ray spectroscopy.">
-  <meta name="keywords" content="Xing Su, University of Tokyo, ultrafast optics, nonlinear optics, soft X-ray spectroscopy, FEL, SXSHG, XMOKE">
-
-  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" crossorigin="anonymous">
-  <script src="https://kit.fontawesome.com/a860a211d3.js" crossorigin="anonymous"></script>
-
-  <link rel="stylesheet" href="assets/css/font_sans_serif.css">
-  <link rel="stylesheet" href="assets/css/theme-luka.css">
-
-  <style>
-    body.theme-luka .site-subtitle {
-      margin: 0 0 18px;
-      color: var(--luka-secondary);
-      font-size: 14px;
-      line-height: 1.7;
-    }
-
-    body.theme-luka .hero-intro {
-      margin-bottom: 18px;
-      color: var(--luka-secondary);
-      font-size: 15px;
-      line-height: 1.8;
-    }
-
-    body.theme-luka .section-body ul {
-      margin: 0;
-      padding-left: 20px;
-    }
-
-    body.theme-luka .section-body li {
-      margin-bottom: 8px;
-    }
-
-    body.theme-luka .project-card {
-      margin-bottom: 14px;
-      padding: 10px 0;
-    }
-
-    body.theme-luka .project-card:last-child {
-      margin-bottom: 0;
-    }
-
-    body.theme-luka .visitor-card {
-      width: 250px;
-    }
-
-    body.theme-luka .visitor-map-box {
-      width: 100%;
-      min-height: 150px;
-      border-radius: 10px;
-      overflow: hidden;
-      background: rgba(194, 113, 79, 0.06);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: var(--luka-secondary);
-      font-size: 12px;
-      text-align: center;
-      padding: 10px;
-    }
-
-    body.theme-luka .note-card {
-      margin-top: 20px;
-      padding: 14px 16px;
-      border: 1px solid var(--luka-border);
-      border-radius: 14px;
-      color: var(--luka-secondary);
-      font-size: 13px;
-      line-height: 1.7;
-      text-align: left;
-    }
-
-    body.theme-luka .pub-content .title {
-      line-height: 1.5;
-    }
-
-    body.theme-luka .site-name {
-      font-size: 30px;
-    }
-
-    body.theme-luka .award-item {
-      align-items: flex-start;
-    }
-
-    body.theme-luka .award-text {
-      line-height: 1.6;
-    }
-  </style>
-</head>
-
-<body class="theme-luka">
-  <nav class="top-nav">
-    <div class="nav-container">
-      <div class="nav-left">
-        <a href="./">Home</a>
-      </div>
-      <div class="nav-right">
-        <button id="themeToggle" class="theme-toggle" title="Toggle theme" aria-label="Toggle theme">
-          <i class="fa-solid fa-moon"></i>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Xing Su | Ph.D. Student in Chemistry</title>
+    <meta
+      name="description"
+      content="Personal academic homepage of Xing Su, Ph.D. student in Chemistry at The University of Tokyo."
+    >
+    <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="assets/css/font_sans_serif.css">
+    <link rel="stylesheet" href="assets/css/theme-luka.css">
+  </head>
+  <body class="theme-luka">
+    <nav class="top-nav" aria-label="Primary navigation">
+      <div class="nav-container">
+        <div class="nav-left">
+          <a href="#home">Home</a>
+        </div>
+        <button class="theme-toggle" type="button" aria-label="Toggle color theme" title="Toggle color theme">
+          <span aria-hidden="true">◐</span>
         </button>
       </div>
-    </div>
-  </nav>
+    </nav>
 
-  <div class="wrapper">
-    <header class="sidebar">
-      <div class="profile-card">
-        <a class="image avatar">
-          <img src="assets/img/avatar.png" alt="Xing Su avatar">
-        </a>
-
-        <h1 class="site-name">Xing Su</h1>
-        <p class="site-subtitle">
-          PhD Student<br>
-          University of Tokyo
-        </p>
-        <p class="site-email">your.email@example.com</p>
-
-        <div class="social-icons">
-          <a href="mailto:your.email@example.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
-          <a href="https://scholar.google.com/" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-          <a href="https://github.com/xingyusu1999" title="GitHub"><i class="fa-brands fa-github"></i></a>
-          <a href="https://www.linkedin.com/" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-        </div>
-
-        <div class="visitor-card">
-          <div class="visitor-card-title">Visitor Map</div>
-          <div class="visitor-card-body">
-            <div class="visitor-map-box">
-              Paste your visitor-map embed code here.<br>
-              For example, replace this box with your map widget snippet.
+    <div class="wrapper" id="home">
+      <aside class="sidebar">
+        <div class="profile-card">
+          <span class="image avatar">
+            <img src="assets/img/avatar.svg" alt="Portrait placeholder for Xing Su">
+          </span>
+          <h1 class="site-name">Xing Su</h1>
+          <p class="exp-detail">Ph.D. Student in Chemistry</p>
+          <p class="exp-detail">Matsuda Laboratory<br>The University of Tokyo</p>
+          <p class="site-email">
+            <a href="mailto:xingyusu@g.ecc.u-tokyo.ac.jp">xingyusu@g.ecc.u-tokyo.ac.jp</a>
+          </p>
+          <div class="social-icons" aria-label="Profile links">
+            <a href="mailto:xingyusu@g.ecc.u-tokyo.ac.jp" aria-label="Email">M</a>
+            <a href="#publications" aria-label="Publications">P</a>
+            <a href="#research" aria-label="Research">R</a>
+            <a href="assets/cv/" aria-label="Curriculum vitae">CV</a>
+          </div>
+          <div class="visitor-card">
+            <div class="visitor-card-title">Visitor Map</div>
+            <div class="visitor-card-body">
+              Paste your visitor-map embed code here. Replace this box with your map widget snippet.
             </div>
           </div>
         </div>
+      </aside>
 
-        <div class="note-card">
-          I work on ultrafast light–matter interaction, nonlinear optics, and soft X-ray spectroscopy, with a particular interest in FEL-based experiments and element-specific dynamics in magnetic and semiconductor systems.
-        </div>
-      </div>
-    </header>
+      <main class="content">
+        <section class="section" aria-label="Introduction">
+          <div class="section-body">
+            <p>
+              I work on ultrafast light-matter interaction, nonlinear optics, and soft X-ray spectroscopy,
+              with a particular interest in FEL-based experiments and element-specific dynamics in magnetic
+              and semiconductor systems.
+            </p>
+          </div>
+        </section>
 
-    <section class="content">
-      <div class="section" id="about">
-        <h2 class="section-title">About Me</h2>
-        <div class="section-body">
-          <p class="hero-intro">
-            Hello! I am <strong>Xing Su</strong>, a PhD student in Prof. Matsuda’s group at the University of Tokyo.
-          </p>
+        <section class="section" id="about">
+          <h2 class="section-title">About</h2>
+          <div class="section-body">
+            <p>
+              I am Xing Su, a Ph.D. student in the Matsuda Group at the University of Tokyo, Department of
+              Chemistry, School of Science.
+            </p>
+            <p>
+              My research sits at the intersection of ultrafast light-matter interaction, nonlinear optics,
+              and soft X-ray spectroscopy using X-ray free-electron lasers (XFELs). I am particularly
+              interested in probing element-specific ultrafast dynamics in magnetic and semiconductor systems,
+              from coherent orbital and spin currents to symmetry-breaking responses that only soft X-ray
+              second-harmonic generation can resolve.
+            </p>
+            <p>
+              I conduct experiments primarily at SACLA BL1 and am broadly interested in how coherent,
+              element-selective nonlinear probes can uncover the microscopic mechanisms behind spin-orbit and
+              magneto-optical phenomena.
+            </p>
+            <p><a href="assets/cv/">Curriculum Vitae →</a></p>
+          </div>
+        </section>
 
-          <p>
-            My research focuses on ultrafast light–matter interaction, nonlinear optics, and soft X-ray spectroscopy using free-electron lasers (FELs).
-          </p>
+        <section class="section" id="news">
+          <h2 class="section-title">News</h2>
+          <div class="section-body">
+            <div class="timeline-item">
+              <p class="exp-period">2026.03</p>
+              <p>Our paper “Seeing Trajectory Without Imaging by Exploring Both Radial Momentum and Orbital Angular Momentum of Light” is published in <em>Laser &amp; Photonics Reviews</em>.</p>
+            </div>
+            <div class="timeline-item">
+              <p class="exp-period">2026.03</p>
+              <p>Our paper on rotational-anisotropy soft X-ray SHG in GaAs is published in <em>e-Journal of Surface Science and Nanotechnology</em>.</p>
+            </div>
+            <div class="timeline-item">
+              <p class="exp-period">2025.11</p>
+              <p>Concluded my visiting scholarship at UC Berkeley, Zuerch Lab, Sep-Nov 2025.</p>
+            </div>
+            <div class="timeline-item">
+              <p class="exp-period">2025.03</p>
+              <p>Received the ISSP Best Poster Design Award at the Institute for Solid State Physics, The University of Tokyo.</p>
+            </div>
+            <div class="timeline-item">
+              <p class="exp-period">2024.10</p>
+              <p>Awarded the SPRING-GX Fellowship for doctoral study at The University of Tokyo.</p>
+            </div>
+            <div class="timeline-item">
+              <p class="exp-period">2024.04</p>
+              <p>Started my Ph.D. in Chemistry, School of Science, at The University of Tokyo.</p>
+            </div>
+          </div>
+        </section>
 
-          <p>
-            I am particularly interested in element-specific ultrafast dynamics, including soft X-ray second-harmonic generation (SXSHG) and XMOKE, with applications to magnetic materials and semiconductor systems.
-          </p>
-
-          <p>
-            <strong><a href="assets/cv/CV.pdf" target="_blank" rel="noopener">Download my CV</a></strong>
-          </p>
-        </div>
-      </div>
-
-      <div class="section" id="education">
-        <h2 class="section-title">Education</h2>
-        <div class="section-body">
-          <div class="card">
-            <div class="experience-item">
-              <img src="assets/img/institution.svg" alt="University logo" class="institution-logo">
+        <section class="section" id="education">
+          <h2 class="section-title">Education</h2>
+          <div class="section-body">
+            <div class="education-item experience-item">
+              <img class="institution-logo" src="Utokyo_log.svg" alt="The University of Tokyo logo">
               <div class="experience-content">
-                <p class="exp-title"><strong>University of Tokyo</strong></p>
-                <p class="exp-detail">Ph.D. in Applied Physics</p>
-                <p class="exp-period">2025 - Present</p>
+                <p class="exp-title">The University of Tokyo <span class="exp-location">Tokyo, Japan</span></p>
+                <p class="exp-detail">Ph.D. in Chemistry, School of Science</p>
+                <p class="exp-period">Apr. 2024 - Jul. 2027 (Expected)</p>
+              </div>
+            </div>
+            <div class="education-item experience-item">
+              <img class="institution-logo" src="Utokyo_log.svg" alt="The University of Tokyo logo">
+              <div class="experience-content">
+                <p class="exp-title">The University of Tokyo <span class="exp-location">Tokyo, Japan</span></p>
+                <p class="exp-detail">Master of Science in Chemistry</p>
+                <p class="exp-period">Oct. 2022 - Mar. 2024</p>
+              </div>
+            </div>
+            <div class="education-item experience-item">
+              <img class="institution-logo" src="Xiamen_log.png" alt="Xiamen University logo">
+              <div class="experience-content">
+                <p class="exp-title">Xiamen University <span class="exp-location">Xiamen, China</span></p>
+                <p class="exp-detail">Bachelor of Science in Physics</p>
+                <p class="exp-period">Sep. 2018 - Jun. 2022</p>
               </div>
             </div>
           </div>
-        </div>
-      </div>
+        </section>
 
-      <div class="section" id="experience">
-        <h2 class="section-title">Experience</h2>
-        <div class="section-body">
-          <div class="card timeline-item">
-            <div class="experience-item">
-              <img src="assets/img/institution.svg" alt="Lab logo" class="institution-logo">
+        <section class="section" id="experience">
+          <h2 class="section-title">Research Experience</h2>
+          <div class="section-body">
+            <div class="education-item experience-item">
+              <img class="institution-logo" src="UCB.png" alt="University of California, Berkeley logo">
               <div class="experience-content">
-                <p class="exp-title"><strong>Matsuda Lab</strong></p>
-                <p class="exp-detail">PhD Researcher</p>
-                <p class="exp-detail"><em>Focus:</em> SXSHG, XMOKE, and FEL-based ultrafast spectroscopy</p>
-                <p class="exp-period">2025 - Present</p>
+                <p class="exp-title">University of California, Berkeley <span class="exp-location">California, USA</span></p>
+                <p class="exp-detail">Visiting Student Scholar · Michael W. Zuerch Lab</p>
+                <p class="exp-period">Sep. 2025 - Nov. 2025</p>
+              </div>
+            </div>
+            <div class="education-item experience-item">
+              <img class="institution-logo" src="RIKEN.svg.png" alt="RIKEN logo">
+              <div class="experience-content">
+                <p class="exp-title">RIKEN / SACLA XFEL <span class="exp-location">Hyogo, Japan</span></p>
+                <p class="exp-detail">Research Assistant · SACLA beamline experiments</p>
+                <p class="exp-period">Apr. 2023 - Apr. 2024</p>
+              </div>
+            </div>
+            <div class="education-item experience-item">
+              <img class="institution-logo" src="Xiamen_log.png" alt="Xiamen University logo">
+              <div class="experience-content">
+                <p class="exp-title">Xiamen University <span class="exp-location">Xiamen, China</span></p>
+                <p class="exp-detail">Research Assistant · LiXiang Chen Lab</p>
+                <p class="exp-period">Jun. 2022 - Sep. 2022</p>
               </div>
             </div>
           </div>
-        </div>
-      </div>
+        </section>
 
-      <div class="section" id="research">
-        <h2 class="section-title">Research</h2>
-        <div class="section-body">
-          <div class="card project-card">
-            <strong>Soft X-ray SHG in GaAs</strong><br>
-            Investigating rotational anisotropy and element-resolved nonlinear optical response in semiconductors.
+        <section class="section" id="research">
+          <h2 class="section-title">Research</h2>
+          <div class="section-body">
+            <div class="project-card">
+              <p><strong>Soft X-ray Second-Harmonic Generation in GaAs</strong></p>
+              <p>Rotational-anisotropy SXSHG as an element-resolved probe of symmetry and bonding in non-centrosymmetric semiconductors. Measurements performed at SACLA BL1.</p>
+            </div>
+            <div class="project-card">
+              <p><strong>Ultrafast Magnetization Dynamics in (In,Fe)As</strong></p>
+              <p>Element-specific time-resolved XMOKE on dilute magnetic semiconductor quantum wells, resolving the interplay between carrier dynamics and ferromagnetic ordering.</p>
+            </div>
+            <div class="project-card">
+              <p><strong>Orbitronics in CoGd / Ti Heterostructures</strong></p>
+              <p>Using soft X-ray SHG and XMCD to probe element-specific orbital angular momentum transfer across magnetic / light-metal interfaces on femtosecond timescales.</p>
+            </div>
           </div>
+        </section>
 
-          <div class="card project-card">
-            <strong>Ultrafast Magnetization in (In,Fe)As</strong><br>
-            Studying time-resolved XMOKE dynamics using SACLA XFEL.
-          </div>
-
-          <div class="card project-card">
-            <strong>Orbitronics in CoGd/Ti</strong><br>
-            Probing element-specific orbital angular momentum dynamics via SXSHG.
-          </div>
-        </div>
-      </div>
-
-      <div class="section" id="publications">
-        <h2 class="section-title">Publications</h2>
-        <div class="section-body">
-          <div class="publications">
+        <section class="section publications" id="publications">
+          <h2 class="section-title">Publications</h2>
+          <div class="section-body">
+            <p class="exp-detail">* equal contribution · † corresponding author · See also Google Scholar.</p>
             <ol class="bibliography">
               <li>
-                <div class="pub-row">
-                  <div class="pub-content">
-                    <div class="title">Rotational Anisotropy SXSHG in GaAs</div>
-                    <div class="author"><strong>Xing Su</strong>, ...</div>
-                    <div class="periodical"><em><strong>Applied Physics Letters</strong></em> (submitted)</div>
-                  </div>
+                <div class="pub-content">
+                  <div class="title">Seeing Trajectory Without Imaging by Exploring Both Radial Momentum and Orbital Angular Momentum of Light</div>
+                  <div class="author">X. Su, X. Qiu, J. Wang, D. Zhang, L. Hong, F. Lin, S. Fu, Y. Ren, L. Chen</div>
+                  <div class="periodical">Laser &amp; Photonics Reviews · 2026 · doi:10.1002/lpor.202502894</div>
+                  <div class="links"><a href="#">Paper</a><a href="#">BibTeX</a></div>
+                </div>
+              </li>
+              <li>
+                <div class="pub-content">
+                  <div class="title">Rotational Anisotropy Soft X-ray Second-Harmonic Generation from GaAs</div>
+                  <div class="author">Xingyu Su, et al.</div>
+                  <div class="periodical">e-Journal of Surface Science and Nanotechnology · Vol. 24 · 2026-006 · 2026</div>
+                  <div class="links"><a href="#">Paper</a><a href="#">BibTeX</a></div>
+                </div>
+              </li>
+              <li>
+                <div class="pub-content">
+                  <div class="title">Turbulence-Resilient Detection of the Rotational Doppler Effect with Cylindrical Vector Beams</div>
+                  <div class="author">J. Wang, X. Su, T. Liu, L. Hong, H. Guo, X. Qiu, Y. Ren, L. Chen</div>
+                  <div class="periodical">Optics Express · Vol. 31, pp. 16442-16450 · May 2023 · doi:10.1364/OE.490063</div>
+                  <div class="links"><a href="#">Paper</a><a href="#">BibTeX</a></div>
                 </div>
               </li>
             </ol>
           </div>
-        </div>
-      </div>
+        </section>
 
-      <div class="section" id="awards">
-        <h2 class="section-title">Awards & Scholarships</h2>
-        <div class="section-body">
-          <div class="awards-grid">
-            <div class="award-item">
-              <span class="award-icon">🏅</span>
-              <div class="award-text"><strong>MEXT Scholarship</strong><br>Graduate scholarship support for doctoral study in Japan.</div>
+        <section class="section" id="presentations">
+          <h2 class="section-title">Talks &amp; Presentations</h2>
+          <div class="section-body">
+            <div class="timeline-item">
+              <p class="exp-period">2026.03</p>
+              <p><strong>Rotational-Anisotropy SXSHG as an Element-Specific Probe of GaAs</strong></p>
+              <p class="exp-detail">JSAP Spring Meeting 2026 · Tokyo, Japan · ORAL</p>
             </div>
-
-            <div class="award-item">
-              <span class="award-icon">🎓</span>
-              <div class="award-text"><strong>Graduate Fellowship / Lab Award</strong><br>Add your current scholarship, fellowship, or internal research award here.</div>
+            <div class="timeline-item">
+              <p class="exp-period">2025.12</p>
+              <p><strong>Time-Resolved XMOKE on (In,Fe)As Magnetic Quantum Wells at SACLA BL1</strong></p>
+              <p class="exp-detail">SACLA Users' Meeting · Hyogo, Japan · POSTER</p>
             </div>
-
-            <div class="award-item">
-              <span class="award-icon">📘</span>
-              <div class="award-text"><strong>Academic Excellence Award</strong><br>Add undergraduate or master's academic honors if relevant.</div>
+            <div class="timeline-item">
+              <p class="exp-period">2025.09</p>
+              <p><strong>Introduction to Soft X-ray Nonlinear Optics with Free-Electron Lasers</strong></p>
+              <p class="exp-detail">Matsuda Lab Seminar · The University of Tokyo · INVITED TALK</p>
             </div>
           </div>
-        </div>
-      </div>
+        </section>
 
-      <div class="section" id="interests">
-        <h2 class="section-title">Current Interests</h2>
-        <div class="section-body">
-          <ul>
-            <li>Soft X-ray nonlinear optics and element-selective spectroscopy</li>
-            <li>Ultrafast magnetization control in magnetic quantum wells</li>
-            <li>Light-induced dynamics in semiconductors and correlated materials</li>
-            <li>Development of next-generation FEL-based measurement techniques</li>
-          </ul>
-        </div>
-      </div>
-    </section>
+        <section class="section" id="awards">
+          <h2 class="section-title">Awards &amp; Scholarships</h2>
+          <div class="awards-grid">
+            <div class="award-item">
+              <div class="award-text">
+                <strong>ISSP Best Poster Design Award</strong><span class="award-date">Mar. 2025</span><br>
+                <span class="award-sub">Institute for Solid State Physics, The University of Tokyo.</span>
+              </div>
+            </div>
+            <div class="award-item">
+              <div class="award-text">
+                <strong>SPRING-GX Fellowship</strong><span class="award-date">Oct. 2024</span><br>
+                <span class="award-sub">Graduate scholarship support for doctoral study in Japan.</span>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
 
-    <footer class="site-footer">
-      <p>
-        &copy; 2026 Xing Su.
-        <br>
-        <span class="template-credit"><a href="https://github.com/wzsyyh/luka-homepage-template">Luka Homepage Template</a> adapted for personal academic use.</span>
-      </p>
-    </footer>
-  </div>
+      <footer class="site-footer">
+        <p>© 2026 Xingyu Su</p>
+      </footer>
+    </div>
 
-  <script src="assets/js/scale.fix.js"></script>
-  <script>
-    (function() {
-      const themeToggle = document.getElementById('themeToggle');
-      const icon = themeToggle.querySelector('i');
+    <script src="assets/js/scale.fix.js"></script>
+    <script>
+      const root = document.documentElement;
+      const savedTheme = localStorage.getItem("theme");
 
-      function setTheme(isDark) {
-        document.documentElement.setAttribute('data-theme', isDark ? 'dark' : 'light');
-        icon.classList.toggle('fa-sun', isDark);
-        icon.classList.toggle('fa-moon', !isDark);
-        localStorage.setItem('theme', isDark ? 'dark' : 'light');
+      if (savedTheme) {
+        root.dataset.theme = savedTheme;
       }
 
-      const savedTheme = localStorage.getItem('theme');
-      setTheme(savedTheme ? savedTheme === 'dark' : false);
-
-      themeToggle.addEventListener('click', function() {
-        const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-        setTheme(!isDark);
+      document.querySelector(".theme-toggle").addEventListener("click", () => {
+        const nextTheme = root.dataset.theme === "dark" ? "light" : "dark";
+        root.dataset.theme = nextTheme;
+        localStorage.setItem("theme", nextTheme);
       });
 
-      if ('IntersectionObserver' in window) {
-        const observer = new IntersectionObserver(function(entries) {
-          entries.forEach(function(entry) {
+      const sections = document.querySelectorAll(".section");
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
             if (entry.isIntersecting) {
-              entry.target.classList.add('visible');
+              entry.target.classList.add("visible");
               observer.unobserve(entry.target);
             }
           });
-        }, { threshold: 0.1 });
+        },
+        { threshold: 0.12 }
+      );
 
-        document.querySelectorAll('.section').forEach(function(el) {
-          observer.observe(el);
-        });
-      } else {
-        document.querySelectorAll('.section').forEach(function(el) {
-          el.classList.add('visible');
-        });
-      }
-    })();
-  </script>
-</body>
+      sections.forEach((section) => observer.observe(section));
+    </script>
+  </body>
 </html>

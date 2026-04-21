@@ -2,217 +2,135 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Your Name - Homepage</title>
-  <meta name="description" content="A minimal academic homepage template for researchers, students, and creators.">
-  <meta name="keywords" content="academic homepage, personal website, portfolio, researcher, student">
-  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <title>Xing Su - Homepage</title>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-  <script src="https://kit.fontawesome.com/a860a211d3.js" crossorigin="anonymous"></script>
-
-  <link rel="stylesheet" href="assets/css/font_sans_serif.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/theme-luka.css">
+  <script src="https://kit.fontawesome.com/a860a211d3.js"></script>
+
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+  </style>
 </head>
-<body class="theme-luka">
-  <nav class="top-nav">
-    <div class="nav-container">
-      <div class="nav-left">
-        <a href="./">Home</a>
-      </div>
-      <div class="nav-right">
-        <button id="themeToggle" class="theme-toggle" title="Toggle theme" aria-label="Toggle theme">
-          <i class="fa-solid fa-moon"></i>
-        </button>
-      </div>
+
+<body>
+<div class="wrapper">
+
+<!-- ================= LEFT SIDEBAR ================= -->
+<header class="sidebar">
+  <div class="profile-card">
+    <img src="assets/img/avatar.png" style="width:120px;border-radius:50%;">
+
+    <h1>Xing Su</h1>
+    <p>PhD Student<br>University of Tokyo</p>
+
+    <div class="social-icons">
+      <a href="mailto:your@email.com"><i class="fa-solid fa-envelope"></i></a>
+      <a href="#"><i class="ai ai-google-scholar"></i></a>
+      <a href="#"><i class="fa-brands fa-github"></i></a>
+      <a href="#"><i class="fa-brands fa-linkedin"></i></a>
     </div>
-  </nav>
-
-  <div class="wrapper">
-    <header class="sidebar">
-      <div class="profile-card">
-        <a class="image avatar">
-          <img src="assets/img/avatar.svg" alt="Profile avatar">
-        </a>
-
-        <h1 class="site-name">Your Name</h1>
-        <p class="site-email">your.email@example.com</p>
-
-        <div class="social-icons">
-          <a href="mailto:your.email@example.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
-          <a href="https://scholar.google.com/" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-          <a href="https://github.com/yourname" title="GitHub"><i class="fa-brands fa-github"></i></a>
-          <a href="https://www.linkedin.com/" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-          <a href="https://yourblog.example.com" title="Blog"><i class="fa-solid fa-rss"></i></a>
-        </div>
-
-        <div class="visitor-card">
-          <div class="visitor-card-title">Visitor Map</div>
-          <div class="visitor-card-body">
-            Replace this card with your own ClustrMaps image or analytics widget.
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <section class="content">
-      <div class="section" id="about">
-        <h2 class="section-title">About Me</h2>
-        <div class="section-body">
-          <p>Hello! I am <strong>Your Name</strong>, a student / researcher / engineer working on topics that matter to you. This template is designed to make personal academic websites clean, readable, and easy to adapt.</p>
-          <p>You can use this section to briefly introduce your background, research interests, and current affiliations. Keep it concise and personal.</p>
-          <p><strong><a href="#" target="_blank" rel="noopener">Download my CV</a></strong> (replace this link with your resume)</p>
-        </div>
-      </div>
-
-      <div class="section" id="education">
-        <h2 class="section-title">Education</h2>
-        <div class="section-body">
-          <div class="card">
-            <div class="experience-item">
-              <img src="assets/img/institution.svg" alt="Institution logo" class="institution-logo">
-              <div class="experience-content">
-                <p class="exp-title"><strong>Your University</strong></p>
-                <p class="exp-detail">B.S. / M.S. / Ph.D. in Your Major</p>
-                <p class="exp-period">2022 - 2026</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="section" id="experience">
-        <h2 class="section-title">Experience</h2>
-        <div class="section-body">
-          <div class="card timeline-item">
-            <div class="experience-item">
-              <img src="assets/img/institution.svg" alt="Institution logo" class="institution-logo">
-              <div class="experience-content">
-                <p class="exp-title"><strong>Research Lab / Company Name</strong></p>
-                <p class="exp-detail">Research Intern / Engineer / Assistant</p>
-                <p class="exp-detail"><em>Advisor:</em> Prof. / Dr. Name</p>
-                <p class="exp-period">2025 - Present</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="card timeline-item">
-            <div class="experience-item">
-              <img src="assets/img/institution.svg" alt="Institution logo" class="institution-logo">
-              <div class="experience-content">
-                <p class="exp-title"><strong>Previous Institution</strong></p>
-                <p class="exp-detail">Research Intern / Teaching Assistant</p>
-                <p class="exp-detail"><em>Advisor:</em> Prof. / Dr. Name</p>
-                <p class="exp-period">2024 - 2025</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="section" id="projects">
-        <h2 class="section-title">Projects</h2>
-        <div class="section-body">
-          <div class="card project-card">
-            <a href="https://github.com/yourname/project-name">Project Name</a>: A short one-line summary describing what this project does and why it matters.
-          </div>
-        </div>
-      </div>
-
-      <div class="section" id="publications">
-        <h2 class="section-title">Publications</h2>
-        <div class="section-body">
-          <div class="publications">
-            <ol class="bibliography">
-              <li>
-                <div class="pub-row">
-                  <div class="pub-content">
-                    <div class="title">Paper Title Goes Here</div>
-                    <div class="author"><strong>Your Name</strong>, Coauthor A, Coauthor B</div>
-                    <div class="periodical"><em><strong>Conference / Journal / arXiv</strong></em></div>
-                    <div class="links">
-                      <a href="#">Paper</a> / <a href="#">Code</a> / <a href="#">Project</a>
-                    </div>
-                  </div>
-                </div>
-              </li>
-            </ol>
-          </div>
-        </div>
-      </div>
-
-      <div class="section" id="awards">
-        <h2 class="section-title">Awards</h2>
-        <div class="section-body">
-          <div class="awards-grid">
-            <div class="award-item">
-              <span class="award-icon">🏅</span>
-              <div class="award-text"><strong>Award Name</strong></div>
-            </div>
-            <div class="award-item">
-              <span class="award-icon">🥇</span>
-              <div class="award-text"><strong>Competition / Scholarship / Honor</strong></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <footer class="site-footer">
-      <p>
-        &copy; 2026 Your Name. All rights reserved.
-        <br>
-        <span class="template-credit"><a href="https://github.com/wzsyyh/luka-homepage-template">Luka Homepage Template</a> by <a href="https://wzsyyh.github.io/">Yuheng Yang</a></span>
-      </p>
-    </footer>
   </div>
+</header>
 
-  <script src="assets/js/scale.fix.js"></script>
-  <script>
-    (function() {
-      const themeToggle = document.getElementById('themeToggle');
-      const icon = themeToggle.querySelector('i');
+<!-- ================= MAIN CONTENT ================= -->
+<section class="content">
 
-      function setTheme(isDark) {
-        document.documentElement.setAttribute('data-theme', isDark ? 'dark' : 'light');
-        icon.classList.toggle('fa-sun', isDark);
-        icon.classList.toggle('fa-moon', !isDark);
-        localStorage.setItem('theme', isDark ? 'dark' : 'light');
-      }
+<!-- ===== About ===== -->
+<div class="section">
+  <h2>About Me</h2>
+  <p>
+    I am a PhD student in the group of Prof. Matsuda at the University of Tokyo.
+    My research focuses on ultrafast light–matter interaction, nonlinear optics,
+    and soft X-ray spectroscopy using free-electron lasers (FELs).
+  </p>
 
-      const savedTheme = localStorage.getItem('theme');
-      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      setTheme(savedTheme ? savedTheme === 'dark' : prefersDark);
+  <p>
+    I am particularly interested in element-specific ultrafast dynamics,
+    including soft X-ray second-harmonic generation (SXSHG) and XMOKE,
+    with applications to magnetic materials and semiconductor systems.
+  </p>
 
-      themeToggle.addEventListener('click', function() {
-        const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-        setTheme(!isDark);
-      });
+  <p>
+    <a href="assets/cv/CV.pdf"><strong>Download CV</strong></a>
+  </p>
+</div>
 
-      if ('IntersectionObserver' in window) {
-        const observer = new IntersectionObserver(function(entries) {
-          entries.forEach(function(entry) {
-            if (entry.isIntersecting) {
-              entry.target.classList.add('visible');
-              observer.unobserve(entry.target);
-            }
-          });
-        }, { threshold: 0.1 });
+<!-- ===== Research Highlights ===== -->
+<div class="section">
+  <h2>Research Highlights</h2>
+  <ul>
+    <li>Soft X-ray second-harmonic generation (SXSHG)</li>
+    <li>Ultrafast magnetization dynamics in (In,Fe)As</li>
+    <li>Nonlinear optics in semiconductors (GaAs)</li>
+    <li>FEL-based spectroscopy (SACLA)</li>
+  </ul>
+</div>
 
-        document.querySelectorAll('.section').forEach(function(el) {
-          observer.observe(el);
-        });
-      } else {
-        document.querySelectorAll('.section').forEach(function(el) {
-          el.classList.add('visible');
-        });
-      }
-    })();
-  </script>
+<!-- ===== Education ===== -->
+<div class="section">
+  <h2>Education</h2>
+
+  <p><strong>University of Tokyo</strong><br>
+  Ph.D. in Applied Physics<br>
+  2025 – Present</p>
+
+</div>
+
+<!-- ===== Experience ===== -->
+<div class="section">
+  <h2>Experience</h2>
+
+  <p><strong>Matsuda Lab</strong><br>
+  PhD Researcher<br>
+  Focus: SXSHG, XMOKE, FEL experiments<br>
+  2025 – Present</p>
+
+</div>
+
+<!-- ===== Projects ===== -->
+<div class="section">
+  <h2>Projects</h2>
+
+  <p>
+    <strong>Soft X-ray SHG in GaAs</strong><br>
+    Rotational anisotropy and element-resolved nonlinear optical response.
+  </p>
+
+  <p>
+    <strong>Ultrafast Magnetization in (In,Fe)As</strong><br>
+    Time-resolved XMOKE using SACLA XFEL.
+  </p>
+
+  <p>
+    <strong>Orbitronics in CoGd/Ti</strong><br>
+    Element-specific orbital angular momentum dynamics via SXSHG.
+  </p>
+
+</div>
+
+<!-- ===== Publications ===== -->
+<div class="section">
+  <h2>Publications</h2>
+
+  <ol>
+    <li>
+      <strong>Xing Su</strong>, ...<br>
+      Rotational Anisotropy SXSHG in GaAs<br>
+      <em>Applied Physics Letters (submitted)</em>
+    </li>
+  </ol>
+
+</div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer style="text-align:center;margin-top:40px;">
+  <p>© 2026 Xing Su</p>
+</footer>
+
+</div>
 </body>
 </html>
